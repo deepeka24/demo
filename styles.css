@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #0984e3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .name {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .job-title {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .about {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-link {
+    text-decoration: none;
+    color: #0984e3;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .social-link:hover {
+    color: #74b9ff;
+  }
+  
